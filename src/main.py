@@ -3,7 +3,7 @@ import requests
 import json
 
 url = "https://api.spotify.com/v1/search"
-request_headers = {"Authorization": "Bearer BQBUJKdeINi1J77Hcn1OKkuG_8hB4WNEeVmsxLUIccRJ_zkzITibR7ptNjrZJwPglbj97j3aA0sVpc2t9_8tyZ6jg35_IJY1K_ug2kRonBwYq8GNfyFv3uC4BQkkyvnz4pUCZPRM7bHylA"}
+request_headers = {"Authorization": "Bearer BQDgvbZBOwIitZ5otA5Xcx_8XwVjBFJXfB-R8ilPu2iWCbQ13sGaPSgoOapccUVKUk6qFtDY6P43oxSt850zesnfDyklVIcj__HgstSWj-OUvs_xc8bS9Yx2tKiHJNSN04Yd9nyhxQ"}
 request_params = {"q": "supersubmarina", "type": "artist"}
 
 response = requests.get(url, params=request_params, headers=request_headers)
